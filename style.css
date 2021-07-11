@@ -29,5 +29,6 @@ main {
   grid-column: 4 / span 1;
   font-size: 2.5rem;
   padding: 1rem;
+  line-height: 0%;
 
 }
