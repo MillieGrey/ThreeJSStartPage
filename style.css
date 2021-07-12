@@ -11,29 +11,48 @@ canvas {
   --spacing: 350px;
 }
 
+body {
+  margin:0;
+  background-color: black;
+}
+
 main {
   width: 100vw;
+  height: 100vh;
   color: white;
   z-index: 99;
   position: absolute;
   width: 100%;
   margin: 0px auto;
-  padding: 10px 0px;
-  
+  padding: 0px 0px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(7, 1fr);
 }
 
 
 .title {
   font-size: 4rem;
   font-family: 'Oswald', sans-serif;
+  text-align:left;
 }
 
 
 .fuc {
   background: var(--dark-bg);
   grid-column: 2 / span 4;
+  grid-row: 2;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  padding: 2rem;
+  line-height: 100%;
+
+}
+
+.hec {
+  background: var(--dark-bg);
+  grid-column: 8 / span 4;
+  grid-row: 6;
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   padding: 2rem;
