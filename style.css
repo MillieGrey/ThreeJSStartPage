@@ -11,6 +11,10 @@ canvas {
   --spacing: 350px;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   margin:0;
   background-color: black;
@@ -45,7 +49,7 @@ main {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   padding: 2rem;
-  line-height: 100%;
+  line-height: 120%;
 
 }
 
@@ -56,6 +60,6 @@ main {
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   padding: 2rem;
-  line-height: 100%;
+  line-height: 120%;
 
 }
