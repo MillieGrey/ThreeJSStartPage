@@ -23,7 +23,7 @@ camera.position.setX(0);
 renderer.render(scene, camera);
 
 //fog
-scene.fog = new THREE.Fog( 0x3E2A35, 1, 80 );
+scene.fog = new THREE.Fog( 0x3E2A35, 1, 60 );
 
 //background
 const backgroundImg = new THREE.TextureLoader().load('1454968727969.jpg');
